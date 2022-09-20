@@ -51,7 +51,7 @@ h3 {
 }
 
 
-.box {
+/* .box {
     border: .5px #5B4B8A;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -60,7 +60,7 @@ h3 {
     padding: 10px;
     margin: 20px;
     width: 40%;
-}
+} */
 
 .fa-angle-up {
     color:#3CCF4E;
@@ -85,4 +85,29 @@ h3 {
 .win {
     color:#3CCF4E;
     text-transform: uppercase;
+}
+
+.btn-jogar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+    border-radius: 9px;
+    background-color: rgba(0,0,0,.15);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.5em;
+    font-family: var(--font-family);
+    gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    transform: scale(1.01);
+}
+
+.icon-tabler-reload{
+    color: var(--primary-color);
 }
