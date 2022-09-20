@@ -25,6 +25,10 @@ h1 {
 
 }
 
+h2 {
+    font-size: 4em;
+}
+
 h3 {
     font-size: 2em;
     margin-top: 20px;
@@ -58,12 +62,27 @@ h3 {
     width: 40%;
 }
 
-.icon-mensagem {
+.fa-angle-up {
     color:#3CCF4E;
     margin-left: 10px;
     background-color: var(--bg2-color);
-    border: 1px solid var(--bg2-color);
+    border: none;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 4px;
+}
+
+.fa-angle-down {
+    color:#da370a;
+    margin-left: 10px;
+    background-color: var(--bg2-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 4px;
+}
+
+.win {
+    color:#3CCF4E;
+    text-transform: uppercase;
 }
